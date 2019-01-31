@@ -1,0 +1,204 @@
+/*menubar of the index page*/
+
+.menubar {
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid grey;
+}
+
+/*arranging the options properly*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25%;
+    overflow: hidden;
+    background-color: #2452b9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+/*header for the main message*/
+
+.header {
+    background-color: #9CB7CB;
+    margin-top: 0px
+}
+
+#displayMessage {
+    color: white;
+    background: lightgray;
+}
+
+.h3 {
+    padding-top: 30px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.p1 {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+button {}
+
+/*grid is used to differntiate div's*/
+
+.grid-container1 {
+    display: flow-root;
+    grid-template-columns: 1800px;
+    grid-template-rows: 50px;
+    background-color: lightgray;
+    padding: inherit;
+    margin-left: inherit;
+}
+
+.grid-item1 {
+    background-color: #2452b9;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    align-content: center;
+}
+
+#rcorners1 {
+    border-radius: 15px;
+}
+
+.grid1 {
+    margin-top: 10px;
+    margin-left: 580px;
+}
+
+.grid1b {
+    font-size: 20px;
+    color: #0737A4;
+}
+
+.grid-container {
+    margin-left: 100px;
+    display: grid;
+    grid-column-gap: 120px;
+    grid-row-gap: 15px;
+    width: 90%;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    position: static;
+}
+
+.grid-item {
+    background-color: #2452b9;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#rcorners {
+    border-radius: 25px;
+}
+
+/*managing the details of the project*/
+
+.detail {
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    position: relative;
+}
+
+/*red button for go to another page*/
+
+.button {
+    background-color: red;
+    float: left;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/*manginf the testimonial columns*/
+
+.testimonial {
+    height: 250px;
+    width: 95%;
+    border-top-style: solid;
+    border-top-color: #92a8d1;
+    margin-left: 60px;
+}
+
+.reference {
+    padding-top: 10px;
+    color: #0737A4;
+    font-size: 20px;
+}
+
+.grid-container2 {
+    margin-left: 200px;
+    display: grid;
+    grid-column-gap: 150px;
+    grid-row-gap: 15px;
+    width: 70%;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 120px 120px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    position: static;
+    border: 1px, 1px, 1px, 1px;
+    margin-left: 140px;
+    padding-top: 60px;
+}
+
+.grid-item2 {
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid grey;
+}
+#rcorners2 {
+    border-radius: 15px;
+}
+.dot1 {
+    height: 50px;
+    width: 50pxul; 
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15%;
+    overflow: hidden;
+    background-color: #2452b9;
+    }
+    
+/*footer for mentioning the company name*/
+
+#footer {
+        background-color: gray;
+        height: 100px;
+        width: 100%;
+}
+    
+.p2 {
+        margin-left: 20px;
+        color: white;
+}
